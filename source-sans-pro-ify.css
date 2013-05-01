@@ -1,0 +1,182 @@
+body { background-color: #ffffff; max-width:900px; margin: 20px auto; }
+table {background-color: #ffffff; width:100%;}
+tbody tr td {background-color: #ffffff;}
+td.default { width: 100%; }
+
+table tbody {background-color: #ffffff;}
+
+span.pagetop {
+  color: #bbbbbb; padding-bottom:40px; font-family:'Source Sans Pro', Georgia, Times, serif; font-size:10pt; line-height: 10px;
+}
+
+span.pagetop a:link, span.pagetop a:visited  {font-family:'Source Sans Pro', Georgia, Times, serif; font-size:10pt; color:#bbbbbb; padding-left: 5px;padding-right: 5px; margin-bottom: 10px; padding-bottom: 4px; font-weight: normal;border-bottom: 0px dotted #fff; }
+
+span.pagetop a:hover, span.pagetop a:active {font-family:'Source Sans Pro', Georgia, Times, serif; font-size:10pt; color:#f60; padding-left: 5px;padding-right: 5px; margin-bottom: 10px; padding-bottom: 4px; font-weight: normal; border-bottom: 0px dotted #ffa86e; }
+
+body  { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:12pt; color:#222222; }
+
+td    { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:12pt; color:#999999; padding: 3px; }
+
+.admin td   { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:8.5pt; color:#222222; }
+td.subtext { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:  12px; color:#999999; border-bottom: 1px dotted #ddd ; }
+
+form {
+  margin-bottom: 0px;
+}
+
+input    { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:15px; color:#222222; padding: 8px 8px 8px 8px;
+background-color: #fff;
+color: #333;
+width: auto;
+font-family: 'Source Sans Pro', Georgia, Times, serif;
+font-size: 15px;
+border: 1px solid #ccc;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;}
+
+input[type="text"]    { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:15px; color:#222222; padding: 8px 8px 8px 8px;
+background-color: #fff;
+color: #333;
+width: auto;
+font-family: 'Source Sans Pro', Georgia, Times, serif;
+font-size: 15px;
+border: 1px solid #ccc;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;}
+
+input[type="submit"] { 
+  font-family:'Source Sans Pro', Georgia, Times, serif; color:#222222; padding: 8px 8px 8px 8px;
+  background-color: #f60;
+  color: #fff;
+  width: auto;
+  font-family: 'Source Sans Pro', Georgia, Times, serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 8px 20px;
+  border: 1px solid #f60;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+textarea { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:15px; color:#222222; column-span: 200px; border: 1px solid #ccc;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px; width: 660px; height: 100px;}
+
+a:link    { color:#ffa86e; text-decoration:none; border-bottom: 1px dotted #fff; }
+
+a:hover, a:active    { color:#ffa86e; text-decoration:none; border-bottom: 1px dotted #ffa86e; }
+
+a:visited { color:#aaaaaa; text-decoration:none; border-bottom: 1px dotted #fff}
+
+.default { font-family:'Source Sans Pro', Georgia, Times, serif; font-size: 12pt; color:#999999; border-bottom: 1px dotted #ccc; padding: 0px; }
+.admin   { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:8.5pt; color:#222222; }
+.title   { 
+  font-family:'Source Sans Pro', Georgia, Times, serif; 
+  font-size: 20pt; 
+  color:#ddd; 
+  font-weight: 300;
+  padding-top: 12px; 
+}
+
+img[src='grayarrow.gif'] {
+  width: 0;
+  height: 0;
+  margin-top: 6px;
+  border-style: solid;
+  border-color: transparent transparent #eee transparent;
+  border-width: 8px 8px 12px 8px;
+}
+
+img:hover {
+  border-bottom-color: #999;
+}
+
+.title a:link {
+  font-weight: 300; 
+  font-family: 'Source Sans Pro', 'Source Sans Pro', Georgia, Times, serif; 
+  font-size: 18pt; 
+  color:#222222; 
+  margin-right: 6px;
+}
+
+.title a:hover, .title a:active {
+  border-bottom: 1px dotted #ffa86e;
+}
+.title a:visited { color:#aaaaaa; border-bottom:1px dotted #fff;}
+
+.adtitle { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:  9pt; color:#999999; }
+
+
+.yclinks { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:  8pt; color:#999999;  padding-top: 15px; }
+
+.yclinks a:link, .yclinks a:visited {
+  color:  #bbb; padding-left: 5px; padding-right: 5px; font-weight: normal; border-bottom: none;
+}
+
+.yclinks a:hover, .yclinks a:active {color:  #f60; padding-left: 5px; padding-right: 5px; font-weight: normal; border-bottom: none;}
+
+
+
+.pagetop { font-family:'Source Sans Pro', Georgia, Times, serif; font-size: 12pt; color:#222222; }
+.comhead { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:  9pt; color:#888888; }
+
+.comment { 
+  color:  #444;
+  font-family:'Source Sans Pro', Georgia, Times, serif; 
+  font-size:  18px; 
+  line-height: 1.3em; 
+  padding-top: 10px; 
+}
+
+.dead    { font-family:'Source Sans Pro', Georgia, Times, serif; font-size:  9pt; color:#dddddd; }
+i {
+  font-style: italic;
+}
+
+u {
+  text-decoration: none; border-bottom: 1px dotted #ffa86e; font-size: 12px; margin-top: -10px;
+}
+
+
+
+.comment a:link, .comment a:visited  { color: #ffa86e; border-bottom: 1px dotted #fff; font-weight:normal;}
+
+.comment a:hover, .comment a:active {color: #ffa86e; border-bottom: 1px dotted #ffa86e; font-weight:normal;}
+
+.dead a:link, .dead a:visited { color:#bbbbbb; }
+.pagetop a:visited { color:#222222;}
+.topsel a:link, .topsel a:visited { color:#ffffff; }
+
+
+.subtext { 
+  font-family: 'Source Sans Pro', 'Source Sans Pro', Georgia, Times, serif !important; 
+  font-size:  8pt; 
+  color: #ddd; 
+  padding-bottom:15px; 
+}
+
+.subtext a:link {
+  padding-left:2px ; padding-right:4px; color: #ffa86e ; font-weight: normal; border-bottom: 1px dotted #fff;
+}
+
+.subtext a:hover, .subtext a:active { text-decoration:none; border-bottom: 1px dotted #ffa86e;}
+
+.subtext a:visited { padding-left:2px ; padding-right:4px; color: #ffa86e ; font-weight: normal; border-bottom: 1px dotted #fff; }
+
+.comhead a:link  { padding-left:2px ; padding-right:4px; color: #ffa86e ; font-weight: normal; border-bottom: 1px dotted #fff; }
+
+.comhead a:hover, .comhead a:active  { padding-left:2px; padding-right:4px; color: #ffa86e ; font-weight: normal; text-decoration:none; border-bottom: 1px dotted #ffa86e; }
+
+.default p { margin-top: 2px; margin-bottom: 0px; padding-bottom: 5px;padding-top: 15px; text-rendering:optimizeLegibility; }
+
+
+
+.pagebreak {page-break-before:always;}
+
+pre { overflow: auto; padding: 2px; max-width:600px; }
+pre:hover {overflow:auto;}
